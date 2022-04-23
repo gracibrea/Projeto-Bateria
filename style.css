@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+/*font-family: 'Poppins', sans-serif;*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(255, 255, 255, 0.658);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+h1 {
+    margin-bottom: 1rem;
+}
+
+.keys {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 1.5rem;
+}
+
+.key {
+    width: 5rem;
+    height: 5rem;
+    font-size: 2rem;
+    font-weight: 500;
+    border: solid 3px rgba(255, 255, 255, 0.658) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.key.active {
+    border: 2px solid #FF0;
+    color: #FF0;
+}
+
+.composer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    width: 260px;
+}
+
+input, button {
+    margin-bottom: 1rem;
+    padding: 10px 15px;
+    width: 100%;
+    font-size: 1rem;
+    background: none;
+    border: solid 1px rgba(255, 255, 255, 0.658)
+}
+
+.composer button:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    font-size: .9rem;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.658);
+}
+
+a:hover {
+    font-weight: bolder;
+}
