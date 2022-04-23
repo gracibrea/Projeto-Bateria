@@ -57,10 +57,3 @@ function playComposition(songArray) {
         wait += 250;
     }
 }
-
-
-//APRENDIZADO
-/*
-Eventos -> eventListener
-
-
